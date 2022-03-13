@@ -1,0 +1,136 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "name": "Bedroom",
+            "description": "What your room looks like is your own business.  I'm guessing there's a bed so the name makes sense.",
+            "enemies": [],
+            "items": [108],
+            "neighbors": {
+                "e": 3
+            }
+        },
+        {
+            "id": 2,
+            "name": "Bathroom",
+            "description": "Good idea coming in here.  Making one's self presentable at work makes everyone's day better.",
+            "enemies": [
+                52
+            ],
+            "items": [],
+            "neighbors": {
+                "s": 3
+            }
+        },
+        {
+            "id": 3,
+            "name": "Hallway",
+            "description": "It is long and looks as if it stretches on forever, like how this week feels already.",
+            "enemies": [],
+            "items": [],
+            "neighbors": {
+                "w": 1,
+                "n": 2,
+                "e": 4
+            }
+        },
+        {
+            "id": 4,
+            "name": "Kitchen",
+            "description": "This is where you acquire things to stave off starvation.",
+            "enemies": [53],
+            "items": [103, 104, 106],
+            "neighbors": {
+                "w": 3,
+                "e": 5
+            
+            }
+        },
+        {
+            "id": 5,
+            "name": "Outside",
+            "description": "It's the great wide open.  There's a hot burning thing in the sky and a method of transportation\n you can use to head to work.",
+            "enemies": [],
+            "items": [],
+            "neighbors": {
+                "w": 4,
+                "drive": 6
+            }
+        },
+        {
+            "id": 6,
+            "name": "Overflow Lot",
+            "description": "It may only be a block or so away from work, but it feels like another state.  There is a lot of\n chain link fencing.",
+            "enemies": [],
+            "items": [],
+            "neighbors": {
+                "n": 7
+            }
+        },
+        {
+            "id": 7,
+            "name": "Main Entrance",
+            "description": "You stand at the back door to RSI.  I hope you brought your fob to get in.",
+            "enemies": [],
+            "items": [],
+            "neighbors": {
+                "s": 6
+            }
+        },
+        {
+            "id": 8,
+            "name": "Print Shop",
+            "description": "Just inside RSI's back door is the domain of the elusive print elves.  Their industrious creations\n bring joy to all RSI denizens.",
+            "enemies": [55],
+            "items": [],
+            "neighbors": {
+                "s": 7,
+                "n": 9,
+                "e": 10
+            }
+        },
+        {
+            "id": 9,
+            "name": "Your Cube",
+            "description": "Home away from home.  This is where you stow your stuff, play with your computer, and act productive\n for the bulk of the day.",
+            "enemies": [50, 51],
+            "items": [1001],
+            "neighbors": {
+                "s": 8,
+                "w": 10,
+                "n": 11
+            }
+        },
+        {
+            "id": 10,
+            "name": "Break Room",
+            "description": "There are tables, chairs, a foosball table, and vending machines.  Heck, some people even eat in here.",
+            "enemies": [58],
+            "items": [101, 105],
+            "neighbors": {
+                "w": 8
+            }
+        },
+        {
+            "id": 11,
+            "name": "Restrooms",
+            "description":  "Hidden in this back nook are the restrooms.  Oddly enough, this is a fairly popular locale.  \nHopefully, there are paper towels.",
+            "enemies": [],
+            "items": [],
+            "neighbors": {
+                "s": 9
+            }
+        },
+        {
+            "id": 12,
+            "name": "The Blind Mule",
+            "description":  "This restaurant/bar is somewhat dim when you walk in.  The staff bustles by with someone else's food.  It really does look good.",
+            "enemies": [57],
+            "items": [],
+            "neighbors": {
+                "w": 6
+            }
+        }
+
+    ]
+}

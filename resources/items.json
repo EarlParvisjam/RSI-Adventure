@@ -1,0 +1,249 @@
+{
+    "weapons": [
+        {
+            "id": 1000,
+            "name": "Stapler",
+            "description": "Red, metalic, and not particularly heavy.",
+            "slot": "main",
+            "value": 0,
+            "damage": 2,
+            "uses": [
+                "You click your stapler, pretending it's the mouth of an alien.",
+                "You open and close your stapler and fiddle with its release switches.",
+                "Holding your stapler menacingly, you ponder its merits as a bludgeoning device.",
+                "With your trusty stapler, you feel like you can conquer the world."
+            ],
+            "bound": false
+        },
+        {
+            "id": 1001,
+            "name": "Pencil",
+            "description": "A cheap mechanical pencil.  It's running out of lead",
+            "slot": "main",
+            "value": 1,
+            "damage": 3,
+            "uses": [
+                "Tapping your pencil produces a few irritated looks by your neighbors.",
+                "You imagine your pencil is really a stiletto.  Watch out world.",
+                "Using your pencil, you doodle on a scratch piece of paper."
+            ],
+            "bound": false
+        },
+        {
+            "id": 1002,
+            "name": "Spoon",
+            "description": "It's not particularly useful in every situation, but I'm sure you're likely to try to make it work anyway.",
+            "slot": "main",
+            "value": 2,
+            "damage": 3,
+            "uses": [
+                "You brandish your spoon like a talisman.  The Tick would be proud.",
+                "Using an epic strain of imagination, you pretend to eat a bowl of cereal.  Too bad there's none available for realsies.",
+                "Hey, wasn't a spoon used to design one of the classic Trek starships?  No?  Well, it was just a thought.",
+                "Glancing down at the spoon in your hand, you ponder your next meal."
+            ],
+            "bound": false
+        },
+        {
+            "id": 1003,
+            "name": "Your Bare Hands",
+            "description": "There's a lot you can do with your hands.  You can do even more if you find a tool and take advantage of that opposable thumb.",
+            "slot": "main",
+            "value": 0,
+            "damage": 2,
+            "uses": [
+                "Cleaning your nails may not accomplish much, but it's oddly comforting to know it's done.",
+                "No, this problem isn't going to be solved by punching it.  Still, it's fun to imagine.  Time passes.",
+                "Well, I have to hand it to you, you're starting to look productive.",
+                "Violence isn't always the answer.  Neither is staring at the problem with your eyes crossed.",
+                "You actually attempt to get things done."
+            ],
+            "bound": true
+        }
+    ],
+    "items": [
+        {
+            "id": 100,
+            "name": "Empty",
+            "description": "There is nothing there, nothing at all.",
+            "value": 1,
+            "bound": true
+        },
+        {
+            "id":101,
+            "name": "Coffee Station",
+            "description": "There is a Keurig, a series of coffee makers, and several coffee thermoses for storing the vital elixir.",
+            "value": 0,
+            "bound": true
+        },
+        {
+            "id": 102,
+            "name": "A Fresh Clean Feeling",
+            "description": "Nothing beats that fresh clean feeling in the early morning",
+            "value": 0,
+            "bound": true
+        },
+        {
+            "id": 103,
+            "name": "A Refrigerator",
+            "description": "It's tall and white and makes a low humming noise.  There may be food in it.  It may also contain an unspeakable horror.",
+            "value": 0,
+            "bound": true,
+            "container": true,
+            "contents": []
+        },
+        {
+            "id":104,
+            "name": "The Microwave",
+            "description": "It's not just any old appliance, but a heroic device that speeds you about your way.  You really\n should appreciate it more than you do.",
+            "value": 0,
+            "bound": true,
+            "container": true,
+            "contents": []
+        },
+        {
+            "id": 105,
+            "name": "The Work Fridges",
+            "description": "They seem like perfectly normal refrigerators but danger and ruin may lurk within.  You vaguely recall they\n were cleaned out recently so it should be safe.",
+            "value": 0,
+            "bound": true,
+            "container": true,
+            "contents": [205]
+        },
+        {
+            "id": 106,
+            "name": "A Drawer",
+            "description": "Thank goodness it's the cutlery one.  If it was the junk drawer, you'd be risking life and limb.",
+            "value": 0,
+            "bound": true,
+            "container": true,
+            "contents": [1002]
+        },
+        {
+            "id":107,
+            "name": "Over-caffeinated",
+            "description": "Your consumption of too much caffeine has given you the jitters and the need to use the restroom.",
+            "value": 0,
+            "bound": true
+        },
+        {
+            "id": 108,
+            "name": "RSI Fob",
+            "description": "This talisman gives you the power of opening and closing.",
+            "value": 0,
+            "bound": false
+        },
+        {
+            "id": 109,
+            "name": "Wet Hands",
+            "description": "Your hands are more than just a bit damp, they are wet.  Everything you touch becomes soggy.  \nA paper towel could really come in handy right about now.",
+            "value": 0,
+            "bound": true
+        },
+        {
+            "id": 110,
+            "name": "Unconsolable Guilt",
+            "description": "You did something you shouldn't have.  You know it and it's eating you up inside.  Really, you're a better person than this.",
+            "value": 1,
+            "bound": true
+        },
+        {
+            "id": 111,
+            "name": "Rotten Food",
+            "description": "This is either really old food or been left out for longer than is safe.  It doesn't stink yet, but\n would probably make you sick if you ate it.",
+            "value": 0,
+            "bound": false
+        }
+    ],
+    "consumable": [
+        {
+            "id": 200,
+            "name": "Coffee",
+            "description": "A caustic substance used to fuel most activities.\nDrinking this provides 10 points of energy.",
+            "value": 5,
+            "energy": 10,
+            "caffeination": 5,
+            "use": "You take a big gulp of your coffee.  It's just the way you like it and you feel a burst of energy.",
+            "bound": false
+        },
+        {
+            "id": 201,
+            "name": "A Hearty Breakfast",
+            "description": "Okay, really it's probably just some instant oatmeal or a poached egg, but whatever gets\n you going in the morning is fine by me.\n Eating this provides 10 points of energy.",
+            "value": 10,
+            "energy": 10,
+            "caffeination": 0,
+            "use": "Eating this meal just might be the high point of your day.  You feel like you can take on the world.",
+            "bound": false
+        },
+        {
+            "id": 202,
+            "name": "Leftovers",
+            "description": "Food that was so good you've saved some for later.\nEating this provides 5 points of energy.",
+            "value": 3,
+            "energy": 5,
+            "caffeination": 0,
+            "use": "You dig into leftovers.  They aren't as good as they were the last time you ate this meal.",
+            "bound": false
+        },
+        {
+            "id": 203,
+            "name": "Can of soda",
+            "description": "Chilled and caffienated, it's a good pick-me-up.\nDrinking this provides 4 points of energy.",
+            "value": 3,
+            "energy": 4,
+            "caffeination": 4,
+            "use": "You drink the can of soda, reveling in the energy it provides.",
+            "bound": false
+        },        
+        {
+            "id": 204,
+            "name": "Paper Towel Sheet",
+            "description": "An ancient and valuable form of currency, still prized for its absorbancy.",
+            "value": 1,
+            "energy": 0,
+            "caffeination": 0,
+            "use": "You wipe your hands with the precious Paper Towel.  Its use done, you resign it to the trash can and mourn the loss.",
+            "bound": false
+        },
+        {
+            "id": 205,
+            "name": "Somebody Else's Lunch",
+            "description": "First off, it's not yours.  Second, there's no telling how long it's been sitting where you found it.  You should\n feel ashamed for just looking at it.",
+            "value": 1,
+            "energy": 4,
+            "caffeination": 0,
+            "use": "Despite the warnings from the narrator, you callously consume somebody else's lunch.  It actually tasted pretty good...  You monster...",
+            "bound": false
+        }
+    ],
+    "gear": [
+        {
+            "id": 500,
+            "name": "Rumpled Shirt",
+            "description": "It's freshly washed, but sat in a laundry hamper a few days to get good and wrinkly.",
+            "slot": "torso",
+            "value": 1,
+            "defense": 0,
+            "bound": false
+        },
+        {
+            "id": 501,
+            "name": "Blue Jeans",
+            "description": "These are well worn but mostly sans holes.  It's just about time to buy a new pair.",
+            "slot": "legs",
+            "value": 1,
+            "defense": 0,
+            "bound": false
+        },
+        {
+            "id": 502,
+            "name": "Unicorn Mask",
+            "description": "It's white and rubbery and creepy.  Wearing this mask isn't as cool as you want it to be.",
+            "slot": "head",
+            "value": 2,
+            "defense": 6,
+            "bound": false
+        }
+    ]
+}

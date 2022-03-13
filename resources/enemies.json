@@ -1,0 +1,173 @@
+{
+    "enemies": [
+        {
+            "id": 50,
+            "name": "Morning Scrum",
+            "description": "What did you do yesterday?  What are you going to do today?",
+            "hp": 15,
+            "damage": 2,
+            "armor": 2,
+            "attacks": [
+                "A coworker brings up an issue and starts a debate.",
+                "You aren't chosen to give your report.",
+                "'I know I'm breaking protocol but...'"
+            ],
+            "death": "At long last, Scrum breaks and you are free.",
+            "aggressive": true,
+            "loot": 0
+        },
+        {
+            "id": 51,
+            "name": "Email Inbox",
+            "description": "A terrifying number of unread messages loom over your head",
+            "hp": 10,
+            "damage": 1,
+            "armor": 1,
+            "attacks": [
+                "The meeting that was changed to a later date has been rescheduled for an even later date.",
+                "FW:FW:FW:FW:FW:FW:FW:FW:FW:FW:FW:FW:FW:FW:FW:...",
+                "You are due for your annual security certification",
+                "Your password is about to expire."
+            ],
+            "death": "You have 0 unread messages.",
+            "aggressive": false,
+            "loot": 0
+        },
+        {
+            "id": 52,
+            "name": "Unruly Showerhead",
+            "description": "It goes hot when you want cold and cold when you adjust it warmer.",
+            "hp": 5,
+            "damage": 1,
+            "armor": 0,
+            "attacks": [
+                "Oooh, now it's hot!!!",
+                "Wait, that's too far, cold cold cold!",
+                "You're certain you did NOT shut the water off."
+            ],
+            "death": "No soap in eyes?  Check.  Everything's clean?  Check.",
+            "aggressive": false,
+            "loot": [102]
+        },
+        {
+            "id": 53,
+            "name": "A Stove",
+            "description": "You cleaned it yesterday and it looks all sparkly.  If you're feeling brave, food can be cooked on it.",
+            "hp": 10,
+            "damage": 2,
+            "armor": 0,
+            "attacks": [
+                "You watch your food heating up.  It's taking sooooo long.",
+                "A watched pot never boils.  You ponder how much time you'd save if you stopped watching.",
+                "Hey, watch out, you almost touched a hot burner!",
+                "You feel your time slipping slipping slipping into the future.  That Steve Miller song is now stuck in your head."
+            ],
+            "death": "Your food is finally ready",
+            "aggressive": false,
+            "loot": [201]
+        },
+        {
+            "id": 54,
+            "name": "Waiting Around",
+            "description": "The waiting is the hardest part...",
+            "hp": 10,
+            "damage": 1,
+            "armor": 0,
+            "attacks": [
+                "You see clouds in the sky but it's not raining.  The parking lot sure is quiet.",
+                "A cop car drives by.  For no reason, you feel guilty.",
+                "For a moment, you thought you saw someone in one of the windows."
+            ],
+            "death": "At long last, one of your coworkers takes pity on you and opens the door for you.",
+            "aggressive": false,
+            "loot":[]
+        },
+        {
+            "id": 55,
+            "name": "Print Shop Elves",
+            "description": "These friendly and industrious folk are intensely creative.  Their amazing trinkets are prized and scattered around the office.",
+            "hp": 15,
+            "damage": 2,
+            "armor": 2,
+            "attacks": [
+                "You are handed a 3d printed fidget tool.  It's oddly mesmerizing.",
+                "An elf shows you the latest upgrades to a scratch built robot.",
+                "The 3d printer begins moving.  You watch as it begins creating a new widget; only 6 hours and it'll be done.",
+                "For a few minutes of your time, you are rewarded with the intense desire to buy gears and servos to build your own devices."
+            ],
+            "death": "Donning head sets, the elves are drawn back to their work, leaving you alone.",
+            "aggressive": false,
+            "loot": [502]
+        },
+        {
+            "id": 56,
+            "name": "Project Work",
+            "description": "There is a big chunk of work you should do before you can go to lunch.",
+            "hp": 10,
+            "damage": 1,
+            "armor": 1,
+            "attacks": [
+                "This story is missing significant information that you need to figure out.",
+                "Someone stops by your cube to yack right when you get a good focus on the current problem.",
+                "This should just work!  It's not, but it really should work.", 
+                "Your system locks up for a few seconds but then resumes operating as if nothing was wrong.",
+                "There's an off by one error somewhere in the code.  You can just feel it mocking you."
+            ],
+            "death": "Well, there's no finishing your work and you've stared at your monitor a sufficient amount of time to justify a break.",
+            "aggressive": false,
+            "loot": []
+        },
+        {
+            "id": 57,
+            "name": "Blind Mule Staff",
+            "description": "A colorful collection of pleasant folk.  Their siren song entices you to hang out far longer than you should.",
+            "hp": 20,
+            "damage": 2,
+            "armor": 1,
+            "attacks": [
+                "The tv above the bar is playing an episode of some 70's game show.  You are momentarily caught up in solving the current puzzle.",
+                "This food really is just what I wanted.  You think you may be getting full.",
+                "One of the ladies behind the bar says something funny and draws you into a long, involved, conversation.",
+                "You spend a long time staring at the beer selection, wishing you were free for the rest of the day.",
+                "You realize you should be going, but there's still food on your plate and it's nice just sitting where you are.",
+                "Asking for your ticket, the staff vanishes to take care of other customers."
+            ],
+            "death": "At long last, you pay your ticket and flee before you've squandered the whole day in the Mule.",
+            "aggressive": true,
+            "loot": []
+        },
+        {
+            "id": 58,
+            "name": "Foosball!!!",
+            "description": "It's a piecemeal foosball table.  Were it not for the ministrations of the Print Shop Elves, this contraption would have\n collapsed ages ago.",
+            "hp": 20,
+            "damage": 2,
+            "armor": 2,
+            "attacks": [
+                "One of the players knocks the ball into the air, barely missing your head.",
+                "Poison Ball performs a physically impossible feat and reverses direction, right into your own goal.",
+                "Wobble Ball mocks you as it eludes your attempts to whack it.",
+                "You accidentally tap Money Ball and it rolls casually into your own goal."
+            ],
+            "death": "With a sigh, the last point is made and the game ends.  Everyone steps back and realizes they need to get to a meeting.",
+            "aggressive": false,
+            "loot": []
+        },
+        {
+        "id": 59,
+        "name": "Coffee Station",
+        "description": "There are coffee makers and large thermoses for the general staff.",
+        "hp": 10,
+        "damage": 1,
+        "armor": 1,
+        "attacks": [
+            "The sound of drip coffee lulls you into a fugue.",
+            "One of your coworkers stops by to see if there's any coffee already brewed.",
+            "No, it's not done yet.  You should really learn some patience."
+        ],
+        "death": "At long last, the brewing finishes.  You've done the office a great service.  As a reward, you snatch the last paper\n towel from a holder attached to the nearest refrigerator.",
+        "aggressive": false,
+        "loot": []
+        }
+    ]
+}
